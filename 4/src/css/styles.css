@@ -160,10 +160,13 @@ ul li a{
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.25);
     transition: transform 0.2s;
+    padding: 0;
+    overflow: hidden;
 }
 
 .tarjeta:hover {
     transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
 }
 
 .tarjeta img {
@@ -175,9 +178,13 @@ ul li a{
 }
 
 .tarjeta a {
+    display: block;
+    padding: 15px;
+    color: inherit;
     font-size: 1.2em;
     color: #2e2e2e;
     margin: 0;
+    text-decoration: none;
 }
 
 @media (max-width: 768px) {
